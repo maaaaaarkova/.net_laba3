@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Wardrobe
+namespace Wardrobe.Interface
 {
-    public class MainFactory
+    public interface MainFactory
     {
+        IHeaddress GetHeaddress();
+        IPants GetPants();
+        IShirt GetShirt();
+        IShoes GetShoes();
     }
 }

@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Wardrobe.Interface
 {
-    public class IShoes
+    public interface IShoes
     {
-
+        public string GetShoes();
     }
 }

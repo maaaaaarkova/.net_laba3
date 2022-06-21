@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using Wardrobe.Interface;
 
-namespace laba3.Wardrobe.Clothes.Shoes
+namespace Wardrobe.Clothes.Shoes
 {
     public class AutumnShoes : IShoes
     {
-        public string GetAutumnShoes()
+        public string GetShoes()
         {
             string autumnShoes = "Boots";
 

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using Wardrobe.Interface;
 
-namespace laba3.Wardrobe.Clothes.Pants
+namespace Wardrobe.Clothes.Pants
 {
     public class SpringPants : IPants
     {
-        public string GetSpringPants()
+        public string GetPants()
         {
             string springPants = "Leggings";
 

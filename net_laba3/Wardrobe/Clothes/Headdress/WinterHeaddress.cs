@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using Wardrobe.Interface;
 
-namespace laba3.Wardrobe.Clothes.Headdress
+namespace Wardrobe.Clothes.Headdress
 {
     public class WinterHeaddress : IHeaddress
     {
-        public string GetWinterHeaddress()
+        public string GetHeaddress()
         {
             string winterHeaddress = "Woolly hat";
 

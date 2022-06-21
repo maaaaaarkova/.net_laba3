@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Wardrobe.Interface
 {
-    public class IHeaddress
+    public interface IHeaddress
     {
-
+        public string GetHeaddress();        
     }
 }

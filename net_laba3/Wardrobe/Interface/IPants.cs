@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Wardrobe.Interface
 {
-    public class IPants
+    public interface IPants
     {
-
+        public string GetPants();
     }
 }
