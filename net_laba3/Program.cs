@@ -1,7 +1,7 @@
 ﻿using System;
-using Wardrobe.AbstractFactories;
-using Wardrobe.Interface;
-using Wardrobe.Clothes.Headdress;
+using AbstractFactories;
+using Interface;
+using Clothes.Headdress;
 
 
 namespace laba3
@@ -11,7 +11,7 @@ namespace laba3
         static void Main()
         {
             Console.WriteLine("Winter outfit: ");
-            MainFactory winterFactory = new WinterFactory();
+            IFactory winterFactory = new WinterFactory();
             var winterHeaddress = winterFactory.ChooseHeaddress();
             Console.WriteLine($"Headdress: {winterHeaddress.GetHeaddress()}");
             var winterShirt = winterFactory.ChooseShirt();
@@ -24,7 +24,7 @@ namespace laba3
             Console.WriteLine("\n");
 
             Console.WriteLine("Spring outfit: ");
-            MainFactory springFactory = new SpringFactory();
+            IFactory springFactory = new SpringFactory();
             var springHeaddress = springFactory.ChooseHeaddress();
             Console.WriteLine($"Headdress: {springHeaddress.GetHeaddress()}");
             var springShirt = springFactory.ChooseShirt();
@@ -37,7 +37,7 @@ namespace laba3
             Console.WriteLine("\n");
 
             Console.WriteLine("Summer outfit: ");
-            MainFactory summerFactory = new SummerFactory();
+            IFactory summerFactory = new SummerFactory();
             var summerHeaddress = summerFactory.ChooseHeaddress();
             Console.WriteLine($"Headdress: {summerHeaddress.GetHeaddress()}");
             var summerShirt = summerFactory.ChooseShirt();
@@ -50,7 +50,7 @@ namespace laba3
             Console.WriteLine("\n");
 
             Console.WriteLine("Autumn outfit: ");
-            MainFactory autumnFactory = new AutumnFactory();
+            IFactory autumnFactory = new AutumnFactory();
             var autumnHeaddress = autumnFactory.ChooseHeaddress();
             Console.WriteLine($"Headdress: {autumnHeaddress.GetHeaddress()}");
             var autumnShirt = autumnFactory.ChooseShirt();
