@@ -11,22 +11,22 @@ namespace Wardrobe.AbstractFactories
 {
     public class SpringFactory : MainFactory
     {
-        public IHeaddress GetHeaddress()
+        public IHeaddress ChooseHeaddress()
         {
             return new SpringHeaddress();
         }
 
-        public IPants GetPants()
+        public IPants ChoosePants()
         {
             return new SpringPants();
         }
 
-        public IShoes GetShoes()
+        public IShoes ChooseShoes()
         {
             return new SpringShoes();
         }
 
-        public IShirt GetShirt()
+        public IShirt ChooseShirt()
         {
             return new SpringShirt();
         }

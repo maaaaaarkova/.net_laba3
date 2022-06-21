@@ -6,9 +6,9 @@ namespace Wardrobe.Interface
 {
     public interface MainFactory
     {
-        IHeaddress GetHeaddress();
-        IPants GetPants();
-        IShirt GetShirt();
-        IShoes GetShoes();
+        IHeaddress ChooseHeaddress();
+        IPants ChoosePants();
+        IShirt ChooseShirt();
+        IShoes ChooseShoes();
     }
 }

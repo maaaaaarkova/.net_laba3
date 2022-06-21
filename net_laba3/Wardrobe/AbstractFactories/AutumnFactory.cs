@@ -12,22 +12,22 @@ namespace Wardrobe.AbstractFactories
 {
     public class AutumnFactory : MainFactory
     {
-        public IHeaddress GetHeaddress()
+        public IHeaddress ChooseHeaddress()
         {
             return new AutumnHeaddress();
         }
 
-        public IPants GetPants()
+        public IPants ChoosePants()
         {
             return new AutumnPants();
         }
 
-        public IShoes GetShoes()
+        public IShoes ChooseShoes()
         {
             return new AutumnShoes();
         }
 
-        public IShirt GetShirt()
+        public IShirt ChooseShirt()
         {
             return new AutumnShirt();
         }
